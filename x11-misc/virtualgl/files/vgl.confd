@@ -1,0 +1,8 @@
+# /etc/conf.d/vgl
+
+# gdm
+XAUTHORITY="/var/gdm/:0.Xauth"
+DISPLAY=":0"
+
+# slim
+# XAUTHORITY="/var/run/slim.auth"
