@@ -3,6 +3,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+  20 Oct 2011; Steven Peckins <sep16@psu.edu> +virtualgl-2.2.90.ebuild:
+  Version bump; now using CMake.
+
   25 May 2011; Steven Peckins <sep16@psu.edu> +virtualgl-2.2.1.ebuild:
   Version bump; updated to use new make variables.
 
