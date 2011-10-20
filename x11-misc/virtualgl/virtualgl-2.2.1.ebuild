@@ -53,20 +53,20 @@ src_prepare() {
 		-e 's|-lcrypto|-lcrypto -lz|' \
 		-e 's|\(^_DUMMY4\)|#\1|' \
 		Makerules.linux
-		
+
 	mkdir "${LJT}/build"{,32} || die "mkdir failed"
 }
 
 src_configure() {
 	local ECONF_SOURCE="${LJT}"
-	
-	einfo "Configuring libjpeg-turbo"	
+
+	einfo "Configuring libjpeg-turbo"
 	cd "${LJT}/build"
 	econf \
 		--with-pic \
 		--with-jpeg8 \
 		--disable-dependency-tracking
-	
+
 	if has_multilib_profile; then
 		multilib_toolchain_setup x86
 		cd ../build32 && econf \
@@ -95,7 +95,7 @@ src_compile() {
 	emake rr \
 		JPEG_LDFLAGS="-L${WORKDIR}/usr/$(get_libdir) -Wl,-Bstatic -lturbojpeg -Wl,-Bdynamic"
 	emake diags mesademos
-		
+
 	if has_multilib_profile; then
 		emake rr \
 			M32=yes \

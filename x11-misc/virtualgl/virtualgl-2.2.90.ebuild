@@ -18,7 +18,7 @@ DESCRIPTION="Run OpenGL applications on remote display software with full 3D har
 HOMEPAGE="http://www.virtualgl.org/"
 SRC_URI="mirror://sourceforge/${PN}/${MY_PN}/${PV}/${MY_P}.tar.gz
          mirror://sourceforge/libjpeg-turbo/${LJT_PV}/libjpeg-turbo-${LJT_PV}.tar.gz"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 SLOT="0"
 LICENSE="LGPL-2.1 wxWinLL-3.1"
 RESTRICT="mirror"
