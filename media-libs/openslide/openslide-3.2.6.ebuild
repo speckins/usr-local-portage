@@ -1,4 +1,4 @@
-# Copyright 1999-2010 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -14,20 +14,12 @@ LICENSE="LGPL-2.1"
 RESTRICT="mirror"
 
 IUSE="doc"
-DEPEND="media-libs/jpeg
+DEPEND="virtual/jpeg
         media-libs/openjpeg
         media-libs/tiff
         >=x11-libs/cairo-1.2
         >=dev-libs/glib-2.12"
 RDEPEND="${DEPEND}"
-
-src_configure() {
-	econf
-}
-
-src_compile() {
-	emake || die "Make failed"
-}
 
 src_install() {
 	emake DESTDIR="${D}" install || die
