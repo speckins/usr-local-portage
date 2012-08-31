@@ -6,6 +6,10 @@ These are the local ebuilds I have had to create in the course of my work.  As s
 
 > C library that provides a simple interface to read whole-slide images, aka virtual slides
 
+#### media-libs/vips
+
+> Image processing library especially for working with large images
+
 #### sci-biology/structure
 
 > Free software package for using multi-locus genotype data to investigate population structure
