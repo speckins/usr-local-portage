@@ -10,6 +10,11 @@ These are the local ebuilds I have had to create in the course of my work.  As s
 
 > Image processing library especially for working with large images
 
+#### dev-python/gmpy
+
+> Python bindings for GMP library
+> This is a slot for gmpy2, which is not in the official Portage tree.
+
 #### sci-biology/structure
 
 > Free software package for using multi-locus genotype data to investigate population structure
