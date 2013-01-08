@@ -13,4 +13,5 @@ These are the local ebuilds I have had to create in the course of my work.  As s
   * Free software package for using multi-locus genotype data to investigate population structure
 * **x11-misc/virtualgl**
   * Run OpenGL applications on remote display software with full 3D hardware acceleration
-
+* **sci-visualization/teem**
+  * Coordinated group of libraries for representing, processing, and visualizing scientific raster data
