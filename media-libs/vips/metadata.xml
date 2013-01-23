@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>graphics</herd>
+	<maintainer>
+		<email>pva@gentoo.org</email>
+		<name>Peter Volkov</name>
+	</maintainer>
+	<use>
+		<flag name='fits'>Enable support for the FITS image format through <pkg>sci-libs/cfitsio</pkg></flag>
+		<flag name='matio'>Enable support for reading images from Matlab files through <pkg>sci-libs/matio</pkg></flag>
+		<flag name='openslide'>Enable support for reading several virtual slide images formats using <pkg>media-libs/openslide</pkg></flag>
+	</use>
+</pkgmetadata>
