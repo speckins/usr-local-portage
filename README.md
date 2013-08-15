@@ -11,6 +11,8 @@ These are the local ebuilds I have had to create in the course of my work.  As s
   * Image processing library especially for working with large images
 * **net-misc/haguichi**
   * GTK2 graphical frontend for LogMeIn Hamachi
+* **net-misc/quamachi**
+  * Qt4 graphical frontend for LogMeIn Hamachi
 * **sci-biology/structure**
   * Free software package for using multi-locus genotype data to investigate population structure
 * **x11-misc/virtualgl**
