@@ -22,6 +22,6 @@ IUSE=""
 DEPEND="net-misc/logmein-hamachi
 	=dev-dotnet/gtk-sharp-2*
 	=dev-dotnet/gconf-sharp-2*
-	>=dev-dotnet/notify-sharp-0.4.0
+	>=dev-dotnet/notify-sharp-0.4.0_pre20090305
 	>=dev-dotnet/ndesk-dbus-glib-0.4.0"
 RDEPEND="${DEPEND}"
