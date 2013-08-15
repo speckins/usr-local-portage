@@ -3,12 +3,14 @@ These are the local ebuilds I have had to create in the course of my work.  As s
 /usr/local/portage/...
 ---
 
+* **dev-python/gmpy**
+  * Python bindings for GMP library.  This is a slot for gmpy2, which is not in the official Portage tree.
 * **media-libs/openslide**
   * C library that provides a simple interface to read whole-slide images, aka virtual slides
 * **media-libs/vips**
   * Image processing library especially for working with large images
-* **dev-python/gmpy**
-  * Python bindings for GMP library.  This is a slot for gmpy2, which is not in the official Portage tree.
+* **net-misc/haguichi**
+  * GTK2 graphical frontend for LogMeIn Hamachi
 * **sci-biology/structure**
   * Free software package for using multi-locus genotype data to investigate population structure
 * **x11-misc/virtualgl**
