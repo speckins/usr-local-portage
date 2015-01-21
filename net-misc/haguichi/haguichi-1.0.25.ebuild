@@ -19,6 +19,10 @@ SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE=""
 
+# make install seems to run duplicate installations in parallel which results
+# in failures do to files already existing
+MAKEOPTS="-j1"
+
 DEPEND="net-misc/logmein-hamachi
 	=dev-dotnet/gtk-sharp-2*
 	=dev-dotnet/gconf-sharp-2*
